@@ -7,7 +7,7 @@ This is a common way to deal with websites, search engines and scrappers.
 [![Build Status](https://travis-ci.org/seotracker/SeoCoreBundle.svg?branch=master)](https://travis-ci.org/seotracker/SeoCoreBundle)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/c7e2ba31-3b9c-4fe4-a428-807a23811402/mini.png)](https://insight.sensiolabs.com/projects/c7e2ba31-3b9c-4fe4-a428-807a23811402)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/seotracker/SeoCoreBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/seotracker/SeoCoreBundle/?branch=master)
-![Code Coverage](https://scrutinizer-ci.com/g/seotracker/SeoCoreBundle/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/seotracker/SeoCoreBundle/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/seotracker/SeoCoreBundle/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/seotracker/SeoCoreBundle/?branch=master)
 
 1) Websites
 -----------
