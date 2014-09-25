@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <parameters>
+        <parameter key="seo_tracker_seo_core.sf_crawler.class">SeoTracker\SeoCore\Adapter\Crawler\SymfonyCrawler</parameter>
+        <parameter key="seo_tracker_seo_core.curl_scrapper.class">SeoTracker\SeoCore\Adapter\Scrapper\CurlScrapper</parameter>
+        <parameter key="seo_tracker_seo_core.google_engine.class">SeoTracker\SeoCore\Model\GoogleEngine</parameter>
+    </parameters>
+
+    <services>
+        <service id="seo_tracker.crawler" class="%seo_tracker_seo_core.crawler%" />
+        <service id="seo_tracker.scrapper" class="%seo_tracker_seo_core.scrapper%" />
+        <service id="seo_tracker.search_engine" class="%seo_tracker_seo_core.search_engine%">
+            <argument type="service" id="seo_tracker.scrapper" />
+            <argument type="service" id="seo_tracker.crawler" />
+        </service>
+    </services>
+</container>

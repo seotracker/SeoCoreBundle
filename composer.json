@@ -1,0 +1,27 @@
+{
+    "name": "seotracker/seo-core-bundle",
+    "description": "Symfony 2 implementation of seo-core library",
+    "type": "bundle",
+    "license": "MIT",
+    "keywords": ["SEO", "Scrapper", "Crawler"],
+    "homepage": "https://github.com/seotracker/SeoCoreBundle",
+    "authors": [
+        {
+            "name": "Mickaël Andrieu",
+            "email": "mickael.andrieu@hotmail.fr",
+            "homepage": "http://mickael-andrieu.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "seotracker/seocore": "~1.0"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": "~2.3"
+        },
+    "autoload": {
+        "psr-0": {"SeoTracker\\Bundle\\SeoCoreBundle": ""}
+    },
+    "target-dir": "SeoTracker/Bundle/SeoCoreBundle",
+    "minimum-stability": "stable"
+}
