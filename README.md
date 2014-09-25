@@ -4,7 +4,6 @@ SeoCoreBundle
 SeoCore bundle is an Symfony2 implementation of seotracker/seo-core library.
 This is a common way to deal with websites, search engines and scrappers.
 
-** Note that this library is still a work in progress. **
 
 1) Websites
 -----------
