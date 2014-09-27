@@ -12,7 +12,6 @@
 namespace SeoTracker\Bundle\SeoCoreBundle\Tests\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use SeoTracker\Bundle\SeoCoreBundle\DependencyInjection\Configuration;
 use SeoTracker\Bundle\SeoCoreBundle\DependencyInjection\SeoTrackerSeoCoreExtension;
 
 class SeoTrackerSeoCoreExtensionTest extends \PHPUnit_Framework_TestCase
